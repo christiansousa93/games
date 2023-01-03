@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo-da-velha</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+
+</head>
+<body>
+
+<div id = "dvMenu">    
+    <div id = "dvQuemComeca"></div>
+    <button id = "btIniciaJogo" >Iniciar Jogo</button>
+</div>
+
+<div id = "dvJogo">
+    <div id = "p1" class = "posJogo"></div>
+    <div id = "p2" class = "posJogo"></div>
+    <div id = "p3" class = "posJogo"></div>
+    <div id = "p4" class = "posJogo"></div>
+    <div id = "p5" class = "posJogo"></div>
+    <div id = "p6" class = "posJogo"></div>
+    <div id = "p7" class = "posJogo"></div>
+    <div id = "p8" class = "posJogo"></div>
+    <div id = "p9" class = "posJogo"></div>
+</div>
+
+<div id = "dvControles">
+<label>
+<input id = "tagControlaNivel" type = "range" value = "2" min = "1" max = "2" />
+Nível
+</label>
+    
+<label>
+<input name = "quantJogadores" type = "radio" value = "0" checked = "checked" />
+Um Jogador
+</label>    
+    
+<label>
+<input name = "quantJogadores" type = "radio" value = "1" />
+Dois Jogadores 
+</label>    
+    
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
